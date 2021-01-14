@@ -47,6 +47,15 @@ while endSignal != "end":
                 openImage("/Users/bartosmark/Google Drive/ENGAME /{coding} Society/4th meeting/Liverpool.jpg")
 
     #Barnabás - Salary of the most famous member
+    if programFunction == "salary":
+        if clubName.lower() == "bayern":
+            print("The most famous member of Liverpool FC in 2020 is Mohamed Salah. He earns £10,400,000 (aprox. 4,115,736,122 HUF) annually")
+
+       elif clubName.lower() == "liverpool":
+            print("The most famous member of Bayern München in 2020 is Philippe Coutinho. He earns £19,916,000 (aprox. 7,881,634,674 HUF) annually")
+       else:
+            print("Please write 'Liverpool' or Bayern München!")
+            clubName = input("which team’s most famous player would you like to know the salary for? Bayern München or Liverpool? ")
 
     #Boti - Name of the captain
     if programFunction == "captain":
